@@ -72,8 +72,8 @@ gem 'devise'
 gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
 gem 'kaminari'
-gem 'rails-i18n'
-gem 'dotenv-rails'
+gem 'rails-i18n'      # devise日本語化
+gem 'dotenv-rails'    # 環境変数
 
 # --debug--
 gem 'pry-byebug'
